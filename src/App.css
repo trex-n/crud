@@ -1,0 +1,53 @@
+.App{
+  max-width: 500px;
+  background: gainsboro;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 13px;
+  font-family: monospace;
+  min-width: 500px;
+}
+.box{
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+}
+.post-container{
+  text-align: center;
+}
+.post-input input{
+  display: block;
+  margin: 1rem auto;
+}
+input{
+  width: 20rem;
+  padding: 0.5rem;
+  border: 1px solid #00b8e6;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 10px;
+}
+.post-action-button {
+  padding: 0.7rem;
+  border: 1px solid #00b8e6;
+  background: #00b8e6;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.post-input button:hover {
+  background: #0093b8;
+}
+.post-action-delete{
+  border: 1px solid #d34b4b;
+  background: #d34b4b;
+  color: #fff;
+  margin-left: 10px;
+}
+.app-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
